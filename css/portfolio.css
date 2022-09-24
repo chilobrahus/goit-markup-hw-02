@@ -1,0 +1,35 @@
+.primary-btn {
+    font-family: Roboto;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    background-color: var(--main-white-color);
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+    cursor: pointer;
+}
+
+.primary-btn:hover,
+.primary-btn:focus {
+    color: var(--main-white-color);
+    background-color: var(--accent-color);
+}
+
+
+/* examples */
+
+.example-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.examples-text {
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-text-color);
+}

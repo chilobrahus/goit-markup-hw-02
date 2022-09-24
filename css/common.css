@@ -1,0 +1,89 @@
+/* root */
+
+:root {
+    --primary-text-color: #212121;
+    --paragraph-text-color: #757575;
+    --accent-color: #2196F3;
+    --main-white-color: #ffffff;
+}
+
+
+/* page */
+
+body {
+    background-color: #F5F5F5;
+    font-family: Roboto, sams-serif;
+    font-weight: 400px;
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* logo */
+
+.logo-oll {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-blue {
+    color: var(--accent-color);
+}
+
+.logo-oll {
+    color: #000000;
+}
+
+
+/* heaer */
+
+.header-nav a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.header-nav .link.current {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+.header-nav a:hover,
+.header-nav a:focus {
+    color: var(--accent-color);
+}
+
+.header-contact a {
+    color: var(--paragraph-text-color);
+}
+
+.header-contact a:hover,
+.header-contact a:focus {
+    color: var(--accent-color);
+}
+
+
+/* footer */
+
+.footer-link a {
+    color: var(--paragraph-text-color);
+}
+
+.footer-link a:hover,
+.footer-link a:focus {
+    color: #ffffff;
+}
