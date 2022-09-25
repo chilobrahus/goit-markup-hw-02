@@ -87,7 +87,7 @@
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: #ffffff;
+        color: var(--main-white-color);
     }
     
     .hero-button {
@@ -182,7 +182,7 @@
     }
     /* examples */
     
-    .example-title {
+    .examples-title {
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -208,7 +208,7 @@
     }
     
     .footer-link-street {
-        color: #ffffff;
+        color: var(--main-white-color);
     }
     
     .footer-contact {
