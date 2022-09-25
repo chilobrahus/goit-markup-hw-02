@@ -5,6 +5,7 @@
         --paragraph-text-color: #757575;
         --accent-color: #2196F3;
         --main-white-color: #ffffff;
+        --bcg-black-color: #2F303A;
     }
     /* page */
     
@@ -13,12 +14,9 @@
         color: var(--primary-text-color);
     }
     
-    .page ul {
+    .link {
         list-style-type: none;
     }
-    /* ul {
-        list-style: none;
-    } */
     /* logo */
     
     .logo-oll {
@@ -28,18 +26,15 @@
         line-height: 1.2;
         letter-spacing: 0.03em;
         text-decoration: none;
+        color: #000000;
     }
     
     .logo-blue {
         color: var(--accent-color);
     }
+    /* header */
     
-    .logo-oll {
-        color: #000000;
-    }
-    /* heaer */
-    
-    .header-navigation a {
+    .navigation-menu .list {
         font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
@@ -49,7 +44,7 @@
         text-decoration: none;
     }
     
-    .header-navigation .link.current {
+    .navigation-menu .list.current {
         font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
@@ -58,12 +53,12 @@
         color: var(--accent-color);
     }
     
-    .header-navigation a:hover,
-    .header-navigation a:focus {
+    .navigation-menu :hover,
+    .navigation-menu :focus {
         color: var(--accent-color);
     }
     
-    .header-contact a {
+    .contact-list .top-list {
         font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
@@ -72,11 +67,10 @@
         color: var(--paragraph-text-color);
         text-decoration: none;
     }
-    
-    .header-contact a:hover,
-    .header-contact a:focus {
+    /* .contact-list :hover,
+    .contact-list :focus {
         color: var(--accent-color);
-    }
+    } */
     /* index */
     /* hero */
     
@@ -87,6 +81,7 @@
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
+        background-color: var(--bcg-black-color);
         color: var(--main-white-color);
     }
     
@@ -107,8 +102,8 @@
     
     .hero-button:hover,
     .hero-button:focus {
-        color: var(--accent-color);
-        background-color: var(--main-white-color);
+        color: var(--main-white-color);
+        background-color: #188CE8;
     }
     /* features */
     
@@ -197,25 +192,38 @@
     }
     /* footer */
     
-    .footer-link a {
-        font-family: 'Roboto';
+    .temorary-bcg {
+        background-color: var(--bcg-black-color);
+    }
+    
+    .logo-footer {
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        color: var(--main-white-color)
+    }
+    
+    .add-list {
         font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
+    }
+    
+    .bottom-street {
+        color: var(--main-white-color);
         text-decoration: none;
     }
     
-    .footer-link-street {
-        color: var(--main-white-color);
-    }
-    
-    .footer-contact {
+    .list-bottom {
         color: var(--paragraph-text-color);
+        text-decoration: none;
     }
     
-    .footer-link a:hover,
-    .footer-link a:focus {
+    .add-list :hover,
+    .add-list :focus {
         color: var(--accent-color);
     }
