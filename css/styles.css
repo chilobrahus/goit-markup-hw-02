@@ -13,9 +13,12 @@
         color: var(--primary-text-color);
     }
     
-    ul {
-        list-style: none;
+    .page ul {
+        list-style-type: none;
     }
+    /* ul {
+        list-style: none;
+    } */
     /* logo */
     
     .logo-oll {
@@ -112,7 +115,7 @@
     .features-title {
         font-weight: 700;
         font-size: 14px;
-        line-height: 1.8;
+        line-height: 1.1;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     }
@@ -145,14 +148,14 @@
     .team-member {
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.1;
+        line-height: 1.2;
         text-align: center;
         letter-spacing: 0.03em;
     }
     
     .team-position {
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.2;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--paragraph-text-color);
@@ -161,11 +164,11 @@
     
     .primary-btn {
         font-family: Roboto;
-        color: var(--primary-text-color);
         font-weight: 500;
         font-size: 16px;
         background-color: var(--main-white-color);
-        line-height: 1.7;
+        line-height: 1.6;
+        color: var(--primary-text-color);
         text-align: center;
         letter-spacing: 0.03em;
         border: none;
